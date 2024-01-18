@@ -30,7 +30,7 @@ function buildCal(m, y, cM, cH, cDW, cD, brdr){
         if (currday == 1){ document.writeln("Monday . <span class=open>Opening Times</span> . 6:00 AM - 11:00 PM")}
         if (currday == 2){ document.writeln("Tuesday . <span class=open>Opening Times</span> . 6:00 AM - 11:00 PM")}
         if (currday == 3){ document.writeln("Wednesday . <span class=open>Opening Times</span> . 6:00 AM - 11:00 PM")}
-        if (currday == 4){ document.writeln("Tursady . <span class=open>Opening Times</span> . 6:00 AM - 11:00 PM")}
+        if (currday == 4){ document.writeln("Thursady . <span class=open>Opening Times</span> . 6:00 AM - 11:00 PM")}
         if (currday == 5){ document.writeln("Friday . <span class=open>Opening Times</span> . 6:00 AM - 11:00 PM")}
         if (currday == 6){ document.writeln("Saturday . <span class=open>Opening Times</span> . 6:00 AM - 8:00 PM")}
         return day
