@@ -1,0 +1,323 @@
+header{
+    
+    
+    height: 118px;
+    width: 1024px;
+}
+
+
+
+
+
+nav{
+    background-color:rgba(0, 0, 255, 0.5);
+    height: 40px;
+    border-radius: 10px;
+    
+    text-align: center;
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 135px;
+    padding-right: 45px;
+    
+}
+
+
+nav a{
+    text-decoration: none;
+    padding-top: 8px;
+}
+nav a:hover{
+background: greenyellow;
+
+}
+main{
+    
+    height: 600px;
+    width: 1024px;
+}
+.footer1{
+   
+    height: 40px;
+    width: 1024px;
+}
+.footer1 img{
+    height: 35px;
+    width: 55px;
+    padding-top: 3px;
+    
+    transition: 0.5s;
+}
+.footer1 img:hover{
+    
+    height: 55px;
+    width: 80px;
+}
+.footer1imageswrap{
+    display: flex;
+    justify-content: space-between;
+}
+.footer2
+{
+    
+    height: 30px;
+    width: 1024px;
+    display: inline-block;
+    display: flex;
+}
+.footer2 p{
+ color: darkblue;
+ font-size: medium;
+ padding-right: 60px;
+ padding-left: 60px;
+ font-weight: bold;
+
+}
+
+
+.wrap{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Hospitallogo{
+   height: 160px;
+   width: 120px;
+   padding-left: 5px;
+}
+.Contact{
+  background-color: rgba(30, 143, 255, 0.539);
+  color: red; 
+  border-radius: 5px;
+  padding: 55px;
+  border: 15px;
+  margin-bottom: 15px;
+   
+  
+
+}
+.buttonwrap{
+  display: flex;
+  flex-direction: column;
+  height: 520px; 
+  
+    
+}
+.Direction{
+  
+    background-color:turquoise;
+  color: red; 
+  border-radius: 5px; 
+  padding: 60px;
+  border: 15px;
+  margin-bottom: 15px;
+    
+
+}
+.Visiting{
+
+    background-color: pink;
+  color: red; 
+  border-radius: 5px; 
+  padding: 50px;
+  border: 15px;
+  margin-bottom: 15px;
+  height: 130px;
+
+}
+.Reviews{
+
+    background-color: beige;
+    color: red; 
+    border-radius: 5px; 
+    padding: 55px;
+    border: 15px;
+    margin-bottom: 15px;
+    height: 130px;   
+
+}
+
+.Aboutusmainsection{
+ text-align: center;
+overflow: auto;
+
+}
+
+
+
+
+.Aboutusmainsection p{
+
+text-align: left;
+
+
+}
+.Aboutus{
+height: 400px;
+width: 800px;
+padding: 20px;
+
+}
+.pagetitle{
+height: 40px;
+border-radius: 10px;
+background-color: green;
+margin-bottom: 8px;
+
+
+}
+.ourservices{
+
+height: 400px;
+width: 600px;
+padding: 20px;    
+}
+.mainourservices
+{
+ text-align: center;
+ overflow: auto;
+}
+.mainourservices p
+{
+    text-align: left;
+
+}
+.patientsvisitorsmain{
+    text-align: center;
+    overflow: auto;
+}
+.intro
+{
+ font-weight: bold;
+
+}
+.underlinetext
+{
+font-weight: bold;
+text-decoration: underline;
+
+
+
+
+
+
+}
+.underlinetextsecond{
+    font-weight: bold;
+    text-decoration: underline;
+    
+
+}
+.underlinetextthird{
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+.GPareasection{
+text-align: center;
+overflow: auto;
+}
+.GParea{
+ height: 600px;
+ width: 1024px;
+
+}
+.linkwraps{
+text-align: center;
+
+}
+.linkwraps a{
+padding: 20px;
+
+}
+.linkwraps1 a{
+padding: 20px;
+
+
+}
+.firstsegment{
+    height: 100%;
+    width: 30%;
+   border: 1px solid grey;
+    float: left;
+
+
+}
+.bloodtest{
+ height: 30%;
+ width: 100%;
+
+}
+.secondsegment{
+height: 100%;
+width: 30%;
+border: 1px solid grey;
+
+float: left;
+
+}
+.behind{
+height: 30%;
+width: 100%;
+}
+.thirdsegment{
+height: 100%;
+width: 30%;
+border: 1px solid grey;
+
+float: left;
+}
+.welcome{
+height: 30%;
+width: 100%;
+}
+.mainindex{
+display: flex;
+justify-content: space-between;
+
+}
+.link{
+font-size: 15px;
+
+}
+
+.month {
+    background-color:black;
+    font:bold 12px verdana;
+    color:white;
+    }
+   
+    .daysofweek {
+    background-color:gray;
+    font:bold 12px verdana;
+    color:black;
+    }
+   
+    .days {
+    font-size: 12px;
+    font-family:verdana;
+    color:black;
+    background-color: white;
+    padding: 2px;
+    }
+   
+    .days #today{
+    font-weight: bold;
+    color: red;
+    }
+    .calenderContainer{
+      margin-left: 250px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .main {
+        width:600px;
+        border:1px solid black;
+        }
+        .open-time{
+            margin-top:30px;
+            margin-left: 350px;
+    
+        }

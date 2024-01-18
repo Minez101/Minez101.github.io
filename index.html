@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Main.CSS">
+    <script src="Main.JS"></script>
+    <script type="text/javascript" src="basiccalender.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        
+    
+  <Header>
+    <img class="Hospitallogo" src="Images/Hospital Logo.png" alt="Hospital logo">
+
+  </Header>
+  
+    <script>
+
+    var navbar = Navbar()
+    document.writeln(navbar)
+
+
+
+
+    </script>
+
+<div class="open-time">
+  <script>
+    document.writeln(anOffer())
+  </script>
+  </div>
+
+<Header class="pagetitle">
+  <h1>
+    Home
+  </h1>
+
+ </Header>
+  
+    <Main class="mainindex">
+      
+      <div class="firstsegment">
+        <img class="bloodtest" src="Images/firstsegment one image.jpg" alt="first">
+
+        <a href="http://www.dgft.nhs.uk/new-nhs-blood-test-centre-to-open-at-merry-hill-centre/"><h1 class="link"> 
+          Book your blood test appointment header
+        </h1>
+       </a>
+        
+        <p>
+          We now have a brand new, state-of-the-art NHS blood test centre at the Merry Hill Shopping Centre, located on the lower ground floor of the mall, near to NatWest bank
+
+          Please note, booking is essential and walk-ins will not be accepted.
+        </p>
+
+      </div>
+
+      <div class="secondsegment">
+        <img class="behind" src="Images/second two image.png" alt="secnd">
+        
+        <a href="http://www.dgft.nhs.uk/pupils-go-behind-the-scenes-at-russells-hall-hospital/">
+        <h1 class="link">
+          pupils go 'behind the scene at ruseslls Hall Hospital
+        </h1>
+       </a>
+        
+        <p>
+          School children from across the Black Country were given the chance to go behind the scenes at Russells Hall Hospital in Dudley, getting first-hand experience of the day-to-day work NHS staff do.
+
+        </p>
+      </div>
+
+      <div class="thirdsegment">
+        <img class="welcome" src="Images/third one image.png" alt="third">
+        
+        <a href="http://www.dgft.nhs.uk/about-us/publications/welcome-booklets/">
+        <h1 class="link">
+          Welcome to Russells Hall Hospital
+        </h1>
+       </a>
+        
+        <p>
+          Click here to read our Adult Inpatient Welcome Booklet.
+        </p>
+
+
+      </div>
+
+      
+      
+      
+
+
+
+    
+
+
+
+
+  </Main>
+
+  <div class="calenderContainer">
+    <script type="text/javascript">
+      var todaydate = new Date();
+      var curmonth = todaydate.getMonth() + 1; // get current month (1-12)
+      var curyear = todaydate.getFullYear(); // get current year
+
+      document.writeln(curyear);
+
+      document.write(buildCal(curmonth, curyear, "main", "month", "daysofweek", "days", 1));
+  </script>
+  </div>
+ <script>
+      var footer1 = Footer1()    
+
+
+   document.writeln(footer1)
+
+ </script>
+
+ <script>
+ var footer2 = Footer2() 
+ document.writeln(footer2)
+
+ </script>
+  
+  
+    </div>  
+</body>
+</html>
